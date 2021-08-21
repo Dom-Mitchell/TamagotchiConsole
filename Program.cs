@@ -25,6 +25,7 @@ namespace TamagotchiConsole
 
         static string Hippo()
         {
+            // Hippo from https://www.asciiart.eu/animals/other-land
             var part1 = @"      c~~p ,---------.    ".Pastel(Color.SteelBlue);
             var part2 = @" ,---'".Pastel(Color.SteelBlue) + "oo".Pastel(Color.ForestGreen) + @"  )           \".Pastel(Color.SteelBlue);
             var part3 = @"(".Pastel(Color.SteelBlue) + " O O".Pastel(Color.DimGray) + "                  )/ ".Pastel(Color.SteelBlue);
@@ -38,6 +39,7 @@ namespace TamagotchiConsole
 
         static string Scorpion()
         {
+            // Scorpion from https://www.asciiart.eu/animals/scorpions
             var part1 = @"  ___    ___   ".Pastel(Color.RoyalBlue);
             var part2 = @" ( _<    >_ )  ".Pastel(Color.RoyalBlue);
             var part3 = @" //        \\  ".Pastel(Color.RoyalBlue);
@@ -102,23 +104,82 @@ namespace TamagotchiConsole
 
         static string Sonic()
         {
-            var part1 = @"         ___------__     ";
-            var part2 = @"  |\__-- /\       _-     ";
-            var part3 = @"  |/    __      -        ";
-            var part4 = @"  //\  /  \    /__       ";
-            var part5 = @"  |  o|  0|__     --_    ";
-            var part6 = @"  \\____-- __ \   ___-   ";
-            var part7 = @"  (@@    __/  / /_       ";
-            var part8 = @"     -_____---   --_     ";
-            var part9 = @"      //  \ \\   ___-    ";
-            var part10 = @"    //|\__/  \\  \      ";
-            var part11 = @"    \_-\_____/  \-\     ";
-            var part12 = @"         // \\--\|      ";
-            var part13 = @"    ____//  ||_         ";
-            var part14 = @"   /_____\ /___\        ";
-            var part15 = @" ______________________ ";
+            // Sonic from https://www.asciiart.eu/video-games/sonic-the-hedgehog
+            var part1 = @"         ___------__".Pastel(Color.RoyalBlue);
+            var part2 = @"  |\".Pastel(Color.Bisque) + "__--".Pastel(Color.RoyalBlue) + @" /\".Pastel(Color.Bisque) + "       _-".Pastel(Color.RoyalBlue);
+            var part3 = @"  |/    __      -".Pastel(Color.RoyalBlue);
+            var part4 = @"  //\  /  \    /__".Pastel(Color.RoyalBlue);
+            var part5 = @"  |".Pastel(Color.RoyalBlue) + "  o".Pastel(Color.ForestGreen) + "|".Pastel(Color.RoyalBlue) + "  0".Pastel(Color.ForestGreen) + "|".Pastel(Color.RoyalBlue) + "__".Pastel(Color.Bisque) + "     --_".Pastel(Color.RoyalBlue);
+            var part6 = @"  \\".Pastel(Color.RoyalBlue) + @"____--".Pastel(Color.Bisque) + @" __".Pastel(Color.DimGray) + @" \".Pastel(Color.Bisque) + "   ___-".Pastel(Color.RoyalBlue);
+            var part7 = @"  (".Pastel(Color.Bisque) + "@@".Pastel(Color.DimGray) + @"    __/".Pastel(Color.DimGray) + @"  /".Pastel(Color.Bisque) + " /_".Pastel(Color.RoyalBlue);
+            var part8 = @"     -_____---".Pastel(Color.Bisque) + "   --_".Pastel(Color.RoyalBlue);
+            var part9 = @"     //".Pastel(Color.RoyalBlue) + @"/  \".Pastel(Color.Bisque) + @" \\   ___-".Pastel(Color.RoyalBlue);
+            var part10 = @"    //".Pastel(Color.WhiteSmoke) + "|".Pastel(Color.RoyalBlue) + @"\__/".Pastel(Color.Bisque) + @"  \\  \".Pastel(Color.RoyalBlue);
+            var part11 = @"    \_-".Pastel(Color.WhiteSmoke) + @"\_____/  \-\".Pastel(Color.RoyalBlue);
+            var part12 = @"         // \\--\|".Pastel(Color.RoyalBlue);
+            var part13 = @"    ____".Pastel(Color.Red) + "//  ||".Pastel(Color.RoyalBlue) + "_".Pastel(Color.Red);
+            var part14 = @"   /".Pastel(Color.Red) + "_____".Pastel(Color.WhiteSmoke) + @"\ /".Pastel(Color.Red) + "___".Pastel(Color.WhiteSmoke) + @"\".Pastel(Color.Red);
+            var part15 = @" ______________________".Pastel(Color.Gold);
 
             return $"{part1}\n{part2}\n{part3}\n{part4}\n{part5}\n{part6}\n{part7}\n{part8}\n{part9}\n{part10}\n{part11}\n{part12}\n{part13}\n{part14}\n{part15}";
+        }
+
+        static string Deer()
+        {
+            // Buck from https://www.asciiart.eu/animals/deer
+            var part1 = @"    /|       |\                         ".Pastel(Color.DarkSlateGray);
+            var part2 = @" `__\\       //__'                      ".Pastel(Color.DarkSlateGray);
+            var part3 = @"    ||      ||                          ".Pastel(Color.DarkSlateGray);
+            var part4 = @"  \__`\     |'__/                       ".Pastel(Color.DarkSlateGray);
+            var part5 = @"    `_\\   //_'                         ".Pastel(Color.DarkSlateGray);
+            var part6 = @"    _".Pastel(Color.SaddleBrown) + @".,:---;,.".Pastel(Color.SandyBrown) + @"_                         ".Pastel(Color.SaddleBrown);
+            var part7 = @"    \_".Pastel(Color.SaddleBrown) + @":".Pastel(Color.SandyBrown) + @"     :".Pastel(Color.SandyBrown) + @"_/                         ".Pastel(Color.SaddleBrown);
+            var part8 = @"      |".Pastel(Color.SaddleBrown) + @"0".Pastel(Color.DodgerBlue) + @". .".Pastel(Color.Bisque) + @"0".Pastel(Color.DodgerBlue) + @"|                           ".Pastel(Color.SaddleBrown);
+            var part9 = @"      |     |                           ".Pastel(Color.SaddleBrown);
+            var part10 = @"      ,".Pastel(Color.SandyBrown) + @"\".Pastel(Color.SaddleBrown) + @".-.".Pastel(Color.Red) + @"/".Pastel(Color.SaddleBrown) + @" \                         ".Pastel(Color.SaddleBrown);
+            var part11 = @"      ;;".Pastel(Color.SandyBrown) + @"`-'".Pastel(Color.Red) + @"   `---__________-----".Pastel(Color.SaddleBrown) + @".-.   ".Pastel(Color.WhiteSmoke);
+            var part12 = @"      ;;;".Pastel(Color.SandyBrown) + @"                         \_\  ".Pastel(Color.WhiteSmoke);
+            var part13 = @"      ';;;".Pastel(Color.SandyBrown) + @"                         |   ".Pastel(Color.SaddleBrown);
+            var part14 = @"       ;".Pastel(Color.SandyBrown) + @"    |                      ;   ".Pastel(Color.SaddleBrown);
+            var part15 = @"        \   \     \        |      /    ".Pastel(Color.SaddleBrown);
+            var part16 = @"         \_".Pastel(Color.SaddleBrown) + @",".Pastel(Color.SandyBrown) + @" \    /        \     |\    ".Pastel(Color.SaddleBrown);
+            var part17 = @"           |".Pastel(Color.SaddleBrown) + @"';".Pastel(Color.SandyBrown) + @"|  |".Pastel(Color.SaddleBrown) + @",,,,,,,,".Pastel(Color.SandyBrown) + @"/ \    \ \_  ".Pastel(Color.SaddleBrown);
+            var part18 = @"           |  |  |           \   /   | ".Pastel(Color.SaddleBrown);
+            var part19 = @"           \  \  |           |  / \  | ".Pastel(Color.SaddleBrown);
+            var part20 = @"            | || |           | |   | | ".Pastel(Color.SaddleBrown);
+            var part21 = @"            | || |           | |   | | ".Pastel(Color.SaddleBrown);
+            var part22 = @"            | || |           | |   | | ".Pastel(Color.SaddleBrown);
+            var part23 = @"            |_||_|           |_|   |_| ".Pastel(Color.SaddleBrown);
+            var part24 = @"           /".Pastel(Color.DarkSlateGray) + @"_".Pastel(Color.WhiteSmoke) + @"//".Pastel(Color.DarkSlateGray) + @"_".Pastel(Color.WhiteSmoke) + @"/           /".Pastel(Color.DarkSlateGray) + @"_".Pastel(Color.WhiteSmoke) + @"/   /".Pastel(Color.DarkSlateGray) + @"_".Pastel(Color.WhiteSmoke) + @"/  ".Pastel(Color.DarkSlateGray);
+
+            return $"{part1}\n{part2}\n{part3}\n{part4}\n{part5}\n{part6}\n{part7}\n{part8}\n{part9}\n{part10}\n{part11}\n{part12}\n{part13}\n{part14}\n{part15}\n{part16}\n{part17}\n{part18}\n{part19}\n{part20}\n{part21}\n{part22}\n{part23}\n{part24}";
+        }
+
+        static string Seagull()
+        {
+            // Seagull from https://ascii.co.uk/art/seagull 
+            var part1 = @"        .:".Pastel(Color.DarkSlateGray) + "~~--__                __--~~".Pastel(Color.WhiteSmoke) + ":.".Pastel(Color.DarkSlateGray);
+            var part2 = @"      ,:;".Pastel(Color.DarkSlateGray) + "'~'-,__~~--..,---..--~~__,-`~`".Pastel(Color.WhiteSmoke) + "::.".Pastel(Color.DarkSlateGray);
+            var part3 = @"    ,:;'".Pastel(Color.SlateGray) + "        ''-,_".Pastel(Color.WhiteSmoke) + " (".Pastel(Color.DarkSlateGray) + "o".Pastel(Color.ForestGreen) + " o".Pastel(Color.ForestGreen) + ")".Pastel(Color.DarkSlateGray) + "_,-``".Pastel(Color.WhiteSmoke) + "        `::.".Pastel(Color.SlateGray);
+            var part4 = @"  ,;'".Pastel(Color.LightSlateGray) + @"                \".Pastel(Color.WhiteSmoke) + @" `\)".Pastel(Color.Orange) + @"/".Pastel(Color.WhiteSmoke) + "                `:.".Pastel(Color.LightSlateGray);
+            var part5 = @" '".Pastel(Color.LightSlateGray) + "                    `--'".Pastel(Color.WhiteSmoke) + "                    `".Pastel(Color.LightSlateGray);
+
+            return $"{part1}\n{part2}\n{part3}\n{part4}\n{part5}";
+        }
+
+        static string Racoon()
+        {
+
+            var part1 = @"                    __        .".Pastel(Color.DimGray) + @"-".Pastel(Color.WhiteSmoke) + @". ".Pastel(Color.DimGray);
+            var part2 = @"                .-'`".Pastel(Color.DimGray) + @" .".Pastel(Color.WhiteSmoke) + @"`'.".Pastel(Color.DimGray) + @"    /".Pastel(Color.DimGray) + @"\\".Pastel(Color.WhiteSmoke) + @"| ".Pastel(Color.DimGray);
+            var part3 = @"        _(\-/)_'".Pastel(Color.DimGray) + @",  .   ,".Pastel(Color.WhiteSmoke) + @" \".Pastel(Color.DimGray) + @"  /".Pastel(Color.DimGray) + @"\\".Pastel(Color.WhiteSmoke) + @"\".Pastel(Color.DimGray) + @"/ ".Pastel(Color.DimGray);
+            var part4 = @"       {(#".Pastel(Color.DimGray) + @"b".Pastel(Color.DarkSlateGray) + @"^".Pastel(Color.PaleVioletRed) + @"d".Pastel(Color.DarkSlateGray) + @"#)}".Pastel(Color.DimGray) + @" .".Pastel(Color.WhiteSmoke) + @"   .".Pastel(Color.WhiteSmoke) + @"/".Pastel(Color.DimGray) + @",".Pastel(Color.WhiteSmoke) + @"  |/".Pastel(Color.DimGray) + @"\\".Pastel(Color.WhiteSmoke) + @"\/  ".Pastel(Color.DimGray);
+            var part5 = @"       `-.".Pastel(Color.DimGray) + @"(".Pastel(Color.WhiteSmoke) + @"-".Pastel(Color.Salmon) + @")".Pastel(Color.WhiteSmoke) + @".-`".Pastel(Color.DimGray) + @"  ,".Pastel(Color.WhiteSmoke) + @"  |".Pastel(Color.DimGray) + @"  ,".Pastel(Color.WhiteSmoke) + @" |".Pastel(Color.DimGray) + @"\".Pastel(Color.WhiteSmoke) + @".".Pastel(Color.DimGray) + @"-".Pastel(Color.WhiteSmoke) + @"`   ".Pastel(Color.DimGray);
+            var part6 = @"            /~/,_/~~~\,__.-`      ".Pastel(Color.DimGray);
+            var part7 = @"           ////~    // ~\\".Pastel(Color.DimGray);
+            var part8 = @"         ==".Pastel(Color.DarkSlateGray) + @"`".Pastel(Color.WhiteSmoke) + @"==".Pastel(Color.DarkSlateGray) + @"`".Pastel(Color.WhiteSmoke) + @"   ==".Pastel(Color.DarkSlateGray) + @"`".Pastel(Color.WhiteSmoke) + @"   ==".Pastel(Color.DarkSlateGray) + @"`".Pastel(Color.WhiteSmoke);
+
+            return $"{part1}\n{part2}\n{part3}\n{part4}\n{part5}\n{part6}\n{part7}\n{part8}";
         }
 
         static void Main(string[] args)
@@ -147,7 +208,7 @@ namespace TamagotchiConsole
 
 
 
-            var animals = new List<string>() { Hippo(), Scorpion(), ShinyCharizard(), Sonic() };
+            var animals = new List<string>() { Hippo(), Scorpion(), ShinyCharizard(), Sonic(), Deer(), Seagull(), Racoon() };
 
             foreach (var animal in animals)
             {
